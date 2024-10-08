@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2rem
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.warning {
+    display: flex;
+    justify-content: center;
+    color: red;
+    padding-bottom: 10px;
+}
+
+.movies, .series, .myself, .connect, .cat {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.ul-ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+}
