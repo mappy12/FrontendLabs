@@ -1,4 +1,5 @@
 body {
+    text-align: center;
     margin: 0;
     padding: 10px;
     font-size: 1.2rem;
@@ -20,10 +21,28 @@ a {
     text-decoration: none;
 }
 
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: bisque;
+    border: 1px;
+    border-radius: 50px;
+    margin-inline-start: 70px;
+    margin-right: 72px;
+}
+
+.header > a {
+    padding: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
 .content {
     display: flex;
     justify-content: space-between;
-    margin: 2.5rem;
+    margin: 3.5rem;
 }
 
 .content-left {
@@ -46,7 +65,7 @@ a {
     margin: 20px;
 }
 
-.header {
+.head {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,3 +103,42 @@ a {
     border: 2px solid;
     border-radius: 40px;
 }
+
+.page2-text {
+    padding-block: 70px;
+    color: rgb(238, 197, 163);
+}
+
+.container {
+    display: block;
+    background-color: beige;
+}
+
+.container > img{
+    width: 200px;
+    margin: 0px auto;
+}
+
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    margin: 0px auto;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 600px;
+    
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+}
+
