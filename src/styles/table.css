@@ -1,0 +1,93 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: rgb(53, 53, 53);
+}
+
+a {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;
+    text-decoration: none;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    background-color: bisque;
+    border: 1px;
+    border-radius: 50px;
+    margin-inline-start: 70px;
+    margin-right: 72px;
+}
+
+.header > a {
+    padding: 30px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+}
+
+caption {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding-bottom: 15px;
+    color:bisque
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    padding-inline: 50px;
+}
+
+table {
+    background-color:rgb(231, 200, 153);
+}
+
+th{
+    background-color: #adadad;
+    text-align: left; 
+    padding: 5px 5px 5px 5px;
+    color:rgb(0, 0, 0)
+}
+
+
+tr:nth-child(even){
+    background-color:rgb(204, 165, 107);
+}
+
+tr:hover {
+    background-color: rgb(230, 230, 230);
+    font-size:large;
+}
+
+
+
+
+
+
+/* style="background-color: rgb(255, 136, 0);"
+style="background-color: rgb(255, 154, 39);"
+style="background-color: rgb(255, 168, 68);"
+style="background-color: rgb(255, 176, 85);"
+style="background-color: rgb(255, 186, 106);"
+style="background-color: rgb(255, 194, 125);"
+style="background-color: rgb(255, 204, 146);"
+style="background-color: rgb(255, 209, 157);"
+style="background-color: rgb(255, 216, 167);"
+style="background-color: rgb(255, 221, 182);" */
