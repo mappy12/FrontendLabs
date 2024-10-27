@@ -49,6 +49,7 @@ caption {
 }
 
 table, th, td {
+    font-family:Arial, Helvetica, sans-serif;
     border: 2px solid black;
     border-collapse: collapse;
     padding: 10px;
@@ -76,9 +77,53 @@ tr:hover {
     font-size:large;
 }
 
+.form-container {
+    padding-left: 50px;
+}
+
 
 .table-form {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:antiquewhite;
+    padding: 16px;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    text-align: start;
+    gap: 5px;
+    border: 3px solid antiquewhite;
+    border-radius: 10px;
+}
+
+.radio-gender {
+    display: flex;
+}
+
+.male {
+    padding-right: 10px;
+}
+
+button {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 1000;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(255, 207, 149);
+}
+
+button:hover {
+    background-color: rgb(255, 236, 213);
+}
+
+input::placeholder{
+    color:rgb(0, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fname, .lname {
+    background-color: rgb(255, 240, 223)
+}
+
+.select {
+    background-color: rgb(255, 240, 223)
 }

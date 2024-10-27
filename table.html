@@ -102,36 +102,44 @@
     
         </table>
 
-        <form class="table-form">
+        <div class="form-container">
+            <form class="table-form">
+    
+                <div>
+                    <label for="fname">Имя:</label>
+                    <input class="fname" type="text" id="fname" name="fname" placeholder="Введите имя">
+                </div>
+    
+                <div class="name">
+                    <label for="lname">Фамилия:</label>
+                    <input class="lname" type="text" id="lname" name="lname" placeholder="Введите фамилию">
+                </div>
+    
+                <div class="gender">
+                    <label>Пол:</label><br>
+                    <div class="radio-gender">
+                        <input type="radio" name="gender" value="Мужской" id="Мужской">
+                        <label class="male" for="Мужской">Мужской</label><br>
+                        <input type="radio" name="gender" value="Женский" id="Женский">
+                        <label for="Женский">Женский</label>  
+                    </div> 
+                </div>
+    
+                <div class="speciality">
+                    <label for="speciality">Специальность:</label>
+                    <select class="select" name="speciality" id="speciality">
+                        <option value="IBAS">ИБАС</option>
+                        <option value="FIIT">ФИИТ</option>
+                        <option value="PMI">ПМИ</option>
+                        <option value="PMF">ПМФ</option>
+                    </select>
+                </div>
 
-            <div>
-                <label for="fname">Имя:</label>
-                <input type="text" id="fname" name="fname" placeholder="Введите имя">
-            </div>
+                <button type="submit">ДОБАВИТЬ</button>
 
-            <div>
-                <label for="lname">Фамилия:</label>
-                <input type="text" id="lname" name="lname" placeholder="Введите фамилию">
-            </div>
+            </form>
 
-            <div>
-                <label>Пол:</label><br>
-                <input type="radio" name="gender" value="Мужской" id="Мужской">
-                <label for="Мужской">Мужской</label><br>
-                <input type="radio" name="gender" value="Женский" id="Женский">
-                <label for="Женский">Женский</label>   
-            </div>
-
-            <div>
-                <label for="speciality">Специальность:</label>
-                <select name="speciality" id="speciality">
-                    <option value="IBAS">ИБАС</option>
-                    <option value="FIIT">ФИИТ</option>
-                    <option value="PMI">ПМИ</option>
-                    <option value="PMF">ПМФ</option>
-                </select>
-            </div>
-        </form>
+        </div>
 
     </div>
 
