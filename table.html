@@ -102,24 +102,34 @@
     
         </table>
 
-        <form>
+        <form class="table-form">
 
             <div>
                 <label for="fname">Имя:</label>
-                <input type="text" id="fname" name="fname">
+                <input type="text" id="fname" name="fname" placeholder="Введите имя">
             </div>
 
             <div>
                 <label for="lname">Фамилия:</label>
-                <input type="text" id="lname" name="lname">
+                <input type="text" id="lname" name="lname" placeholder="Введите фамилию">
             </div>
 
             <div>
                 <label>Пол:</label><br>
-                <input type="radio" value="Мужской" id="Мужской">
+                <input type="radio" name="gender" value="Мужской" id="Мужской">
                 <label for="Мужской">Мужской</label><br>
-                <input type="radio" value="Женский" id="Женский">
+                <input type="radio" name="gender" value="Женский" id="Женский">
                 <label for="Женский">Женский</label>   
+            </div>
+
+            <div>
+                <label for="speciality">Специальность:</label>
+                <select name="speciality" id="speciality">
+                    <option value="IBAS">ИБАС</option>
+                    <option value="FIIT">ФИИТ</option>
+                    <option value="PMI">ПМИ</option>
+                    <option value="PMF">ПМФ</option>
+                </select>
             </div>
         </form>
 

@@ -77,14 +77,8 @@ tr:hover {
 }
 
 
-
-/* style="background-color: rgb(255, 136, 0);"
-style="background-color: rgb(255, 154, 39);"
-style="background-color: rgb(255, 168, 68);"
-style="background-color: rgb(255, 176, 85);"
-style="background-color: rgb(255, 186, 106);"
-style="background-color: rgb(255, 194, 125);"
-style="background-color: rgb(255, 204, 146);"
-style="background-color: rgb(255, 209, 157);"
-style="background-color: rgb(255, 216, 167);"
-style="background-color: rgb(255, 221, 182);" */
+.table-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
